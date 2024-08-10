@@ -1,0 +1,30 @@
+.birthday-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .birthday-form label {
+    margin-bottom: 10px;
+  }
+  
+  .birthday-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .birthday-form button {
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .birthday-form button:hover {
+    background-color: #feb47b;
+  }
+  

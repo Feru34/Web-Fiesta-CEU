@@ -1,0 +1,27 @@
+.zodiac-result {
+    text-align: center;
+  }
+  
+  .zodiac-result h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .zodiac-result p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .zodiac-result button {
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .zodiac-result button:hover {
+    background-color: #feb47b;
+  }
+  
