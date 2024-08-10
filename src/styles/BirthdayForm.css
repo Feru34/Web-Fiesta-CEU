@@ -20,7 +20,7 @@
   
   .birthday-form button {
     padding: 10px 20px;
-    background-color: #ff7e5f;
+    background-color: #0d0143;
     color: white;
     border: none;
     border-radius: 5px;
@@ -28,6 +28,6 @@
   }
   
   .birthday-form button:hover {
-    background-color: #feb47b;
+    background-color: #0b0020;
   }
   

@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Fiesta Universitaria 🎉</h1>
+      <h1>La Cabrona 🎉</h1>
       {!zodiacInfo ? (
         <BirthdayForm setZodiacInfo={setZodiacInfo} />
       ) : (

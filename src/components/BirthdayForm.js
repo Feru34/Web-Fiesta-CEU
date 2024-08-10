@@ -54,7 +54,7 @@ const BirthdayForm = ({ setZodiacInfo }) => {
 
   return (
     <form className="birthday-form" onSubmit={handleSubmit}>
-      <label>Introduce tu fecha de cumpleaños:</label>
+      <label>Danos tu signo y te diremos tu canción de la noche </label>
       <div className="date-inputs">
         <input
           type="number"
