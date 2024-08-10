@@ -4,15 +4,18 @@
     align-items: center;
   }
   
-  .birthday-form label {
-    margin-bottom: 10px;
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
   }
   
-  .birthday-form input {
+  .date-inputs input {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
   }
   
   .birthday-form button {
