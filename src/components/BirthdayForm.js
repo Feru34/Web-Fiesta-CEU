@@ -32,15 +32,12 @@ const songs = {
 };
 
 const BirthdayForm = ({ setZodiacInfo }) => {
-  const [birthday, setBirthday] = useState('');
+  const [month, setMonth] = useState('');
+  const [day, setDay] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const date = new Date(birthday);
-    const monthDay = `${(date.getMonth() + 1).toString().padStart(2, '0')}-${date
-      .getDate()
-      .toString()
-      .padStart(2, '0')}`;
+    const monthDay = `${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
 
     const zodiac = zodiacSigns.find((z) =>
       (monthDay >= z.start && monthDay <= z.end) ||
@@ -58,12 +55,26 @@ const BirthdayForm = ({ setZodiacInfo }) => {
   return (
     <form className="birthday-form" onSubmit={handleSubmit}>
       <label>Introduce tu fecha de cumpleaños:</label>
-      <input
-        type="date"
-        value={birthday}
-        onChange={(e) => setBirthday(e.target.value)}
-        required
-      />
+      <div className="date-inputs">
+        <input
+          type="number"
+          placeholder="Mes (MM)"
+          value={month}
+          onChange={(e) => setMonth(e.target.value)}
+          min="1"
+          max="12"
+          required
+        />
+        <input
+          type="number"
+          placeholder="Día (DD)"
+          value={day}
+          onChange={(e) => setDay(e.target.value)}
+          min="1"
+          max="31"
+          required
+        />
+      </div>
       <button type="submit">Ver mi signo y canción</button>
     </form>
   );
