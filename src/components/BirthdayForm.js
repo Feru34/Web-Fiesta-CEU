@@ -55,7 +55,17 @@ const BirthdayForm = ({ setZodiacInfo }) => {
   return (
     <form className="birthday-form" onSubmit={handleSubmit}>
       <label>Danos tu signo y te diremos tu canción de la noche </label>
+      <h6></h6>
       <div className="date-inputs">
+      <input
+          type="number"
+          placeholder="Día (DD)"
+          value={day}
+          onChange={(e) => setDay(e.target.value)}
+          min="1"
+          max="31"
+          required
+        />
         <input
           type="number"
           placeholder="Mes (MM)"
@@ -63,15 +73,6 @@ const BirthdayForm = ({ setZodiacInfo }) => {
           onChange={(e) => setMonth(e.target.value)}
           min="1"
           max="12"
-          required
-        />
-        <input
-          type="number"
-          placeholder="Día (DD)"
-          value={day}
-          onChange={(e) => setDay(e.target.value)}
-          min="1"
-          max="31"
           required
         />
       </div>
