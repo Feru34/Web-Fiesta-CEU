@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .app-container {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, #391d55, #e86807);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../Fondo.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'MedievalSharp', sans-serif;
     min-height: 100vh;
-  }
-  
-  h1 {
-    margin-bottom: 50px;
-  }
-  
+    animation: fadeIn 1s ease-out; /* Animación de entrada */
+}
+
+h1 {
+    font-size: 3rem;
+    animation: bounceIn 1s ease-out; /* Animación del título */
+}

@@ -3,6 +3,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  p{
+    font-size: 1.5rem;
+  }
   
   .date-inputs {
     display: flex;
