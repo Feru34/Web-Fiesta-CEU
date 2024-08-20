@@ -4,7 +4,7 @@ Claro, aquí tienes el README en español:
 
 # Sinica - Sitio Web Oficial
 
-Bienvenido al repositorio oficial de **Sinica**, una innovadora plataforma web construida con React. El sitio web está diseñado para el evento Sinica, donde los usuarios pueden ingresar su signo zodiacal y recibir una recomendación de canción basada en su signo.
+Bienvenido al repositorio oficial de **Sinica**, una plataforma web construida con React. El sitio web está diseñado para el evento Sinica, donde los usuarios pueden ingresar su signo zodiacal y recibir una recomendación de canción basada en su signo.
 
 ## Descripción
 
