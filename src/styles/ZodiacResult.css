@@ -1,27 +1,40 @@
 .zodiac-result {
-    text-align: center;
-  }
-  
-  .zodiac-result h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .zodiac-result p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-  
-  .zodiac-result button {
-    padding: 10px 20px;
-    background-color: #ff7e5f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .zodiac-result button:hover {
-    background-color: #feb47b;
-  }
-  
+  text-align: center;
+  color: #fff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.zodiac-image {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%;
+  max-width: 400px; /* Ajusta este valor según tus necesidades */
+}
+
+.zodiac-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffaa00;
+}
