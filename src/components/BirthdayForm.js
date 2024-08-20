@@ -12,67 +12,67 @@ const zodiacSigns = [
     sign: 'Piscis', 
     start: '02-19', 
     end: '03-20',
-    images: ['/images/Piscis1.png', '/images/Piscis2.png', '/images/Piscis3.png', '/images/Piscis4.png']
+    images: ['/images/5.png', '/images/6.png', '/images/7.png', '/images/8.png']
   },
   { 
     sign: 'Aries', 
     start: '03-21', 
     end: '04-19',
-    images: ['/images/Aries1.png', '/images/Aries2.png', '/images/Aries3.png', '/images/Aries4.png']
+    images: ['/images/9.png', '/images/10.png', '/images/11.png', '/images/12.png']
   },
   { 
     sign: 'Tauro', 
     start: '04-20', 
     end: '05-20',
-    images: ['/images/Tauro1.png', '/images/Tauro2.png', '/images/Tauro3.png', '/images/Tauro4.png']
+    images: ['/images/13.png', '/images/14.png', '/images/15.png', '/images/16.png']
   },
   { 
     sign: 'Géminis', 
     start: '05-21', 
     end: '06-20',
-    images: ['/images/Géminis1.png', '/images/Géminis2.png', '/images/Géminis3.png', '/images/Géminis4.png']
+    images: ['/images/17.png', '/images/18.png', '/images/19.png', '/images/20.png']
   },
   { 
     sign: 'Cáncer', 
     start: '06-21', 
     end: '07-22',
-    images: ['/images/Cáncer1.png', '/images/Cáncer2.png', '/images/Cáncer3.png', '/images/Cáncer4.png']
+    images: ['/images/21.png', '/images/22.png', '/images/23.png', '/images/24.png']
   },
   { 
     sign: 'Leo', 
     start: '07-23', 
     end: '08-22',
-    images: ['/images/Leo1.png', '/images/Leo2.png', '/images/Leo3.png', '/images/Leo4.png']
+    images: ['/images/25.png', '/images/26.png', '/images/27.png', '/images/28.png']
   },
   { 
     sign: 'Virgo', 
     start: '08-23', 
     end: '09-22',
-    images: ['/images/Virgo1.png', '/images/Virgo2.png', '/images/Virgo3.png', '/images/Virgo4.png']
+    images: ['/images/29.png', '/images/30.png', '/images/31.png', '/images/32.png']
   },
   { 
     sign: 'Libra', 
     start: '09-23', 
     end: '10-22',
-    images: ['/images/Libra1.png', '/images/Libra2.png', '/images/Libra3.png', '/images/Libra4.png']
+    images: ['/images/33.png', '/images/34.png', '/images/35.png', '/images/36.png']
   },
   { 
     sign: 'Escorpio', 
     start: '10-23', 
     end: '11-21',
-    images: ['/images/Escorpio1.png', '/images/Escorpio2.png', '/images/Escorpio3.png', '/images/Escorpio4.png']
+    images: ['/images/37.png', '/images/38.png', '/images/39.png', '/images/40.png']
   },
   { 
     sign: 'Sagitario', 
     start: '11-22', 
     end: '12-21',
-    images: ['/images/Sagitario1.png', '/images/Sagitario2.png', '/images/Sagitario3.png', '/images/Sagitario4.png']
+    images: ['/images/41.png', '/images/42.png', '/images/43.png', '/images/44.png']
   },
   { 
     sign: 'Capricornio', 
     start: '12-22', 
     end: '01-19',
-    images: ['/images/Capricornio1.png', '/images/Capricornio2.png', '/images/Capricornio3.png', '/images/Capricornio4.png']
+    images: ['/images/45.png', '/images/46.png', '/images/47.png', '/images/48.png']
   }
 ];
 
